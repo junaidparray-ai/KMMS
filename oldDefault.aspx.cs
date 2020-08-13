@@ -49,7 +49,7 @@ public partial class _Default : System.Web.UI.Page
             return;
 
         }
-
+        
         MultiView.ActiveViewIndex = 3;
     }
     protected void btn_setPassword_Click(object sender, EventArgs e)
@@ -80,7 +80,7 @@ public partial class _Default : System.Web.UI.Page
             lbl_passwordNoMatch.Visible = true;
             return;
         }
-
+        
         MultiView.ActiveViewIndex = 4;
     }
     protected void lbtn_login_now_Click(object sender, EventArgs e)
@@ -102,8 +102,7 @@ public partial class _Default : System.Web.UI.Page
         lbl_err_username.Visible = false;
         lbl_err_password.Visible = false;
 
-        if (txt_username.Text.ToString() == "")
-        {
+        if (txt_username.Text.ToString() == "") {
 
             lbl_err_username.Visible = true;
             return;

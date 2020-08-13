@@ -210,7 +210,7 @@ public partial class Register : System.Web.UI.Page
 
     protected void btn_confirmDetails_Click1(object sender, EventArgs e)
     {
-        lbl_err_password.Visible = false;
+         lbl_err_password.Visible = false;
         lbl_err_confirmPassword.Visible = false;
         lbl_err_pass_nomatch.Visible = false;
 
@@ -276,6 +276,6 @@ public partial class Register : System.Web.UI.Page
 
     protected void txt_phone_TextChanged(object sender, EventArgs e)
     {
-
+        
     }
 }

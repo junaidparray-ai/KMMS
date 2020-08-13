@@ -1,9 +1,151 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GeneralMasterPage.master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="old Registerr.aspx.cs" Inherits="Register" %><!DOCTYPE html>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style20 {
+            width: 50px;
+        }
+
+        .auto-style21 {
+            width: 171px;
+        }
+
+        .auto-style22 {
+        }
+
+        .auto-style23 {
+            width: 171px;
+            height: 23px;
+        }
+
+        .auto-style24 {
+            height: 23px;
+        }
+
+
+
+        .auto-style25 {
+            width: 171px;
+            height: 26px;
+        }
+
+        .auto-style26 {
+            width: 211px;
+            height: 26px;
+        }
+
+        .auto-style27 {
+            width: 50px;
+            height: 26px;
+        }
+
+        .auto-style28 {
+            height: 26px;
+        }
+
+        .auto-style30 {
+            width: 172px;
+        }
+
+        .auto-style31 {
+        }
+
+        .auto-style32 {
+            width: 213px;
+        }
+
+        .auto-style34 {
+            width: 211px;
+        }
+
+        .auto-style35 {
+            width: 50px;
+            height: 23px;
+        }
+
+        .auto-style36 {
+            width: 172px;
+            height: 23px;
+        }
+
+        .auto-style37 {
+            height: 23px;
+            width: 210px;
+        }
+
+        .auto-style38 {
+            width: 171px;
+            height: 25px;
+        }
+
+        .auto-style39 {
+            height: 25px;
+        }
+
+        .auto-style40 {
+            width: 50px;
+            height: 25px;
+        }
+
+        .auto-style41 {
+            width: 142px;
+        }
+
+        .auto-style43 {
+            width: 42px;
+        }
+
+        .auto-style44 {
+            width: 133px;
+        }
+
+        .auto-style51 {
+            width: 42px;
+            height: 23px;
+        }
+
+        .auto-style52 {
+            width: 133px;
+            height: 23px;
+        }
+
+        .auto-style53 {
+            width: 142px;
+            height: 23px;
+        }
+
+        .auto-style55 {
+            width: 100px;
+        }
+
+        .auto-style56 {
+            width: 100px;
+            height: 23px;
+        }
+
+        .auto-style57 {
+            width: 161px;
+        }
+
+        .auto-style58 {
+            width: 161px;
+            height: 23px;
+        }
+
+        .auto-style59 {
+            height: 56px;
+        }
+
+        .auto-style60 {
+            width: 391px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
         <div>
 
             <asp:MultiView ID="MultiView" runat="server" ActiveViewIndex="0">
@@ -742,6 +884,7 @@
             </asp:MultiView>
 
         </div>
-
-</asp:Content>
+    </form>
+</body>
+</html>
 
